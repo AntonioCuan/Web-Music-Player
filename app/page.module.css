@@ -1,0 +1,78 @@
+.title {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.playlistContainer {
+  text-align: center;
+}
+
+.playlist {
+  width: 80%;
+  display: inline-block;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.playButton {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABA0lEQVR4Xq2UwUoCYRRGJ4ho1SbcunHTA7iopW8QvoBvIPgePoL7wEdo0zIFV4K5kQYlhFKM2ghJ/Z0705jz4TQzjQfOQubew/Azv54HzrkX7OKp/S6M+2WNLX2em52g8YVPeKVzmZFghIXv8FznU5GQssE2HuleIlpI4BXrursX3fwDO4YhVrQRQ7cy8Ik3eKKtAJ3OgX1mTe0VCUbM8PKQwXf0DxH0ce7Ca1suElzhA46wtg39I/iBA1xgE4+1FRDfScS+v2fsYEkbMWRRmeIY77Gqu3uRQMQb9l146A1X4C7bLbC3WbrwT+FM51PZidk5TfAWL3QuMz+xHj7itT7PwzeRF2ES4liRFQAAAABJRU5ErkJggg==');
+}
+
+.pauseButton {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAPklEQVR4Xu2MoQ0AMAzD+v/LA53KKmtK4EgME8vVmlNgNkqbESSPoMQLCfInXkiQP/FCgvyJFxLkT7zwO3gB72L7Nf/E3DoAAAAASUVORK5CYII=');
+}
+
+.songMainInfo {
+  flex: 5 1 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-width: 0;
+}
+
+.songTitle {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.selectedSongTitle {
+  color: dodgerblue;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.songArtist {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: lightgray;
+}
+
+.songLength {
+  flex: 1 1 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
